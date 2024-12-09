@@ -20,7 +20,7 @@ int main(){
 	scanf("%d", &num1);
 	printf("\nNhap so thu hai: ");
 	scanf("%d", &num2);
-	if(isPrime(num1) == 1){
+	if(isPrime(num1) == 0){
 		printf("\n%d la so nguyen to\n", num1);
 	}
 	else{
